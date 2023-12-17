@@ -1,0 +1,26 @@
+---
+const { sideBarActiveItemID } = Astro.props;
+const activeClass = "bg-third"; // For primary color replace with `active` class
+---
+
+<ul class="menu grow shrink menu-md overflow-y-auto">
+    <li><a class="py-3 font-bold tracking-wide text-base text-second hover:bg-third hover:text-second" id="home" href="/">Home</a></li>
+    <li><a class="py-3 font-bold tracking-wide text-base text-second hover:bg-third hover:text-second" id="projects" href="/projects">Projects</a></li>
+    <!-- <li><a class="py-3 font-bold tracking-wide text-base text-second hover:bg-third hover:text-second" id="services" href="/services">Services</a></li> -->
+    <!-- <li><a class="py-3 font-bold tracking-wide text-base text-second hover:bg-third hover:text-second" id="store" href="/store">Store</a></li> -->
+    <li><a class="py-3 font-bold tracking-wide text-base text-second hover:bg-third hover:text-second" id="blog" href="/blog/">Blog</a></li>
+    <li><a class="py-3 font-bold tracking-wide text-base text-second hover:bg-third hover:text-second" id="cv" href="/cv">CV</a></li>
+    <!-- <li>
+        <a
+            class="py-3 font-bold tracking-wide text-base text-base"
+            href="mailto:contact.manuelernestog@gmail.com"
+            target="_blank"
+            referrerpolicy="no-referrer-when-downgrade">Contact</a
+        >
+    </li> -->
+</ul>
+
+<script define:vars={{ sideBarActiveItemID: sideBarActiveItemID, activeClass: activeClass }}>
+const activeItemElem = document.getElementById(sideBarActiveItemID);
+activeItemElem && activeItemElem.classList.add(activeClass);
+</script>

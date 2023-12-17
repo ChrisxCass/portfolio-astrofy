@@ -1,0 +1,139 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="CV" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    <p class="mb-4">
+      Como profesional, poseo una amplia experiencia en el desarrollo integral
+      de software. Mis conocimientos sólidos tanto en BackEnd como en FrontEnd
+      se complementan con mi habilidad para colaborar efectivamente en equipos
+      de trabajo bajo metodologias ágiles.
+    </p>
+    <p>
+      Mi enfoque se centra en el aprendizaje autodidacta, una pasión constante
+      que me impulsa a buscar siempre nuevos conocimientos. Mi objetivo es
+      colaborar en proyectos desafiantes en el campo de la programación,
+      brindando soluciones creativas y de alta calidad.
+    </p>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="COMPUTACIÓN E INFORMÁTICA"
+      subtitle="Instituto de Eduacación Tecnológica Publica Gilda Ballivian Rosado | 2020 - 2022"
+    />
+    <TimeLineElement
+      title="SOPORTE DE INFRAESTRUCTURA TI"
+      subtitle="Instituto de Educación Tecnológica Privada Catolica | 2016 - 2017"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Software Developer in A.M.G."
+      subtitle="AMG Alarcon Management Group | Ene. 2023 - Dic- 2023"
+    >
+      <ul class="list-disc mx-6 mb-10 grid gap-2">
+        <li>
+          Colabación en el desarrollo de un ERP desempeñando el cargo de
+          coordinador de equipo.
+        </li>
+        <li>
+          Construcción de módulos eficientes, testeables y reutilizables
+          Análisis técnicos del código existente y refactorización para mejorar
+          la calidad del código.
+        </li>
+        <li>
+          Aplicación de mejores prácticas durante todo el proceso de desarrollo.
+        </li>
+        <li>
+          Presentar reportes diarios y semanales sobre las tareas realizadas
+          bajo el marco de trabajo ágil SCRUM.
+        </li>
+      </ul>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Frontend Developert in A.C.V.O."
+      subtitle="Agencia Consigue Ventas Online | Jul. 2022 - Dic. 2022"
+    >
+      <ul class="list-disc mx-6 mb-10 grid gap-2">
+        <li>
+          Estructurar el contenido semánticamente de una sistema web ecommerce.
+        </li>
+        <li>
+          Controlar tipografías, plantillas, formas del diseño y la
+          interactividad.
+        </li>
+        <li>
+          Adaptar el diseño de una web a diversos dispositivos y navegadores.
+        </li>
+        <li>Consumir APIs para conectar la web con servicios y sistemas.</li>
+      </ul>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Technical Support Specialist in L.R.C."
+      subtitle="Lima Rental Center | Feb. 2018 - Feb. 2019"
+    >
+      <ul class="list-disc mx-6 mb-10 grid gap-2">
+        <li>Soporte de Equipos de computo.</li>
+        <li>Mantenimiento de hardware y software.</li>
+        <li>Instalación de Sistemas operativos.</li>
+        <li>Presentación de registros de estado de los equipos.</li>
+      </ul>
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a class="hover:text-second underline" href="https://drive.google.com/file/d/18JjLQkY6q67mGEIgtRWKKlKVkIChu_mN/view" target="_blank"
+        >Scrum Foundation Professional Certification SFPC</a
+      >
+    </li>
+    <li>
+      <a class="hover:text-second underline" href="https://www.freecodecamp.org/certification/Christian-Casafranca/foundational-c-sharp-with-microsoft" target="_blank">Foundational C# with Microsoft</a>
+    </li>
+    <li>
+      <a class="hover:text-second underline" href="https://www.freecodecamp.org/certification/Christian-Casafranca/javascript-algorithms-and-data-structures" target="_blank">JavaScript Algorithms and Data Structures</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>JavaScript</li>
+    <li>TypeScript</li>
+    <li>C#</li>
+    <li>PHP</li>
+    <li>Laravel</li>
+    <li>MySQL</li>
+    <li>PostgreSQL</li>
+    <li>VUE JS</li>
+    <li>REACT JS</li>
+    <li>Bootstrap</li>
+    <li>Tailwind</li>
+    <li>CSS</li>
+    <li>HTML</li>
+    <li>Jira</li>
+    <li>Scrum</li>
+  </ul>
+</BaseLayout>

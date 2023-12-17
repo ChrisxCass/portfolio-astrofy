@@ -1,0 +1,98 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
+const last_posts = posts.slice(0, 3);
+---
+
+<BaseLayout sideBarActiveItemID="home">
+  <div class="pb-12 mt-5">
+    <div class="text-xl py-1">Hey there 👋</div>
+    <div class="text-5xl font-bold">I'm Christian Casafranca</div>
+    <div class="text-3xl py-3 font-bold">Software Developer</div>
+    <div class="py-2">
+      <text class="text-lg">
+        <p class="pb-4">
+          Apasionado por el mundo tecnológico, cuento con sólidos conocimientos
+          en lenguajes de programación como JavaScript, PHP, C#, MySQL, entre
+          otros. He colaborado activamente en el desarrollo de software ERP y
+          soluciones de sistemas e-commerce. Además, he brindado consultorías a
+          empresas, ofreciendo soluciones personalizadas para optimizar sus
+          procesos. Esta experiencia me ha permitido explorar y comprender a
+          fondo el fascinante mundo de la tecnología.
+        </p>
+        <p>
+          Me apasiona descubrir y aplicar nuevas herramientas que no solo
+          resuelvan problemas, sino que también impulsen ideas innovadoras. En
+          mi búsqueda continua de aprendizaje, actualmente estoy explorando el
+          vasto mundo de Microsoft, sumergiéndome en Power Platform y Azure. Mi
+          enfoque se centra en aprovechar estas tecnologías para crear
+          soluciones innovadoras y eficientes que impulsan el éxito empresarial.
+        </p>
+      </text>
+    </div>
+    <div class="mt-8">
+      <a
+        class="btn bg-second hover:bg-third hover:text-white border-none"
+        href="https://www.linkedin.com/in/christian-casafranca/"
+        target="_blank"
+      >
+        Let's connect!</a
+      >
+    </div>
+  </div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
+  </div>
+
+  <HorizontalCard
+    title="Prueba Culqi"
+    img="/images/projects/culqi.png"
+    desc="Prueba Culqi donde desea ofrecer un sistema para el manejo de personal a los comercios que tiene como cliente."
+    url="https://github.com/ChrisxCass/prueba-culqi"
+    badge="NEW"
+    tics={["TypeScript", "Vue", "Tailwind"]}
+  />
+
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Tech Services"
+    img="/images/projects/tech-services.png"
+    desc="Tienda Virtual de productos tecnológicos con integracion de carrito de compras y pasarela de pagos de PayPal."
+    url="https://github.com/CassChris/TechServices"
+    tics={["PHP", "JavaScript", "CSS", "SCSS"]}
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="ContPass"
+    img="/images/projects/contpass.png"
+    desc="Aplicación móvil que te permite cronometrar la cantidad de pasos recorridos, contar calorías y motivarte a practicar el deporte de correr."
+    url="https://github.com/ChrisxCass/App-ContPass"
+    tics={["HTML", "CSS", "JavaScript", "App Inventor"]}
+  />
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
+  </div>
+
+  {
+    last_posts.map((post) => (
+      <>
+        <HorizontalCard
+          title={post.data.title}
+          img={post.data.heroImage}
+          desc={post.data.description}
+          url={"/blog/" + post.slug}
+          target="_self"
+          badge={post.data.badge}
+        />
+        <div class="divider my-0" />
+      </>
+    ))
+  }
+</BaseLayout>
