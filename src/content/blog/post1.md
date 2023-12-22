@@ -1,9 +1,9 @@
 ---
 title: "Descubriendo Microsoft 365 Developer: Un Gran Ayuda Para el Aprendizaje"
 description: "Explora mi viaje de aprendizaje con Microsoft 365 Developer y descubre cómo superar obstáculos para aprovechar al máximo esta plataforma de desarrollo."
-pubDate: "Dec 19 2023"
+pubDate: "Dec 22 2023"
 heroImage: "/public/images/blogs/first-flog/microsoft-365-developer.png"
-tags: ["lerning"]
+tags: ["tutorial","aprendizaje"]
 ---
 
 ¡Hola a todos! Hoy estoy emocionado de compartir mi experiencia al descubrir y obtener Microsoft 365 Developer. En mi reciente viaje de aprendizaje, me enfrenté a desafíos al intentar adquirir las aplicaciones y herramientas de Microsoft 365. A pesar de estar dispuesto a costear la licencia, me vi limitado por la necesidad de contar con una cuenta empresarial o institucional.
@@ -12,7 +12,7 @@ Buscando soluciones, decidí recurrir a la comunidad en busca de ayuda. Fue así
 
 La respuesta que obtuve fue reveladora: alguien me habló sobre Microsoft 365 Developer, una noticia fantástica que resolvía mis problemas. Esta suscripción brinda acceso completo al paquete de herramientas de Microsoft 365, siempre actualizadas. Aunque es una suscripción de 90 días, se renueva automáticamente al finalizar el periodo.
 
-Esta solución es ideal para aquellos, como yo, que desean practicar y desarrollar proyectos relacionados con Power Platform. Además, permite utilizar herramientas esenciales como Excel, Word, Teams, entre otras. Pero eso no es todo; la suscripción también incluye una cuenta con 1 TB de almacenamiento gratuito en OneDrive. ¡Una noticia fantástica para simplificar nuestro proceso de trabajo!
+Esta solución es ideal para aquellos, como yo, que desean practicar y desarrollar proyectos relacionados con Power Platform. Además, permite utilizar herramientas esenciales como Power BI, Excel, Word, Teams, entre otras. Pero eso no es todo; la suscripción también incluye una cuenta con 1 TB de almacenamiento gratuito en OneDrive. ¡Una noticia fantástica para simplificar nuestro proceso de trabajo!
 
 Para hacer más accesible este proceso, he creado un pequeño tutorial a que los guiará en la obtención de esta suscripción y la instalación exitosa de Microsoft 365 Developer.
 
