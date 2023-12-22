@@ -1,56 +1,149 @@
 ---
-title: "First blog"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 10 2022"
-heroImage: "/post_img.webp"
-tags: ["tokio"]
+title: "Descubriendo Microsoft 365 Developer: Un Gran Ayuda Para el Aprendizaje"
+description: "Explora mi viaje de aprendizaje con Microsoft 365 Developer y descubre cómo superar obstáculos para aprovechar al máximo esta plataforma de desarrollo."
+pubDate: "Dec 19 2023"
+heroImage: "/public/images/blogs/first-flog/microsoft-365-developer.png"
+tags: ["lerning"]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer
-malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas
-pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse
-platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada
-fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea
-dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst
-quisque sagittis purus sit amet.
+¡Hola a todos! Hoy estoy emocionado de compartir mi experiencia al descubrir y obtener Microsoft 365 Developer. En mi reciente viaje de aprendizaje, me enfrenté a desafíos al intentar adquirir las aplicaciones y herramientas de Microsoft 365. A pesar de estar dispuesto a costear la licencia, me vi limitado por la necesidad de contar con una cuenta empresarial o institucional.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum
-quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet.
-Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus.
-Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit
-ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt
-dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus
-arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed
-tempus urna et pharetra pharetra massa massa ultricies mi.
+Buscando soluciones, decidí recurrir a la comunidad en busca de ayuda. Fue así como me uní a un grupo de Facebook dedicado al mundo de Microsoft Power Platform y propuse la idea de que alguien me prestara o creara una cuenta para que pudiera utilizarla, compensándolos económicamente.
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam
-sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec.
-Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna
-fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et
-egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel
-turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra
-nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim
-praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus
-egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam
-ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor
-purus non. Amet dictum sit amet justo donec enim.
+La respuesta que obtuve fue reveladora: alguien me habló sobre Microsoft 365 Developer, una noticia fantástica que resolvía mis problemas. Esta suscripción brinda acceso completo al paquete de herramientas de Microsoft 365, siempre actualizadas. Aunque es una suscripción de 90 días, se renueva automáticamente al finalizar el periodo.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut
-consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra.
-Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor
-dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor
-dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque
-eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices
-tincidunt arcu. Id cursus metus aliquam eleifend mi.
+Esta solución es ideal para aquellos, como yo, que desean practicar y desarrollar proyectos relacionados con Power Platform. Además, permite utilizar herramientas esenciales como Excel, Word, Teams, entre otras. Pero eso no es todo; la suscripción también incluye una cuenta con 1 TB de almacenamiento gratuito en OneDrive. ¡Una noticia fantástica para simplificar nuestro proceso de trabajo!
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus
-imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu
-cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt
-dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat
-sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida.
-Egestas integer eget aliquet nibh praesent tristique magna.
+Para hacer más accesible este proceso, he creado un pequeño tutorial a que los guiará en la obtención de esta suscripción y la instalación exitosa de Microsoft 365 Developer.
+
+¡Continúa leyendo para descubrir cómo aprovechar al máximo estas herramientas y potenciar tu ruta de aprendizaje!
+
+## Tutorial: Obtén Microsoft 365 Developer
+
+¡Bienvenido al tutorial para obtener Microsoft 365 Developer! A continuación, encontrarás una guía para acceder a esta increíble suscripción y potenciar tus proyectos con Microsoft 365.
+
+### 1: Registro en Microsoft 365 Developer
+Inicia sesión en el [sitio web de Microsoft 365 Developer](https://developer.microsoft.com/en-us/microsoft-365/dev-program) y haz clic en "Join Now".
+
+![1](/public/images/blogs/first-flog/microsoft-365-developer-1.png)
+
+### 2: Vista Previa
+Se abrirá esta vista en la cual te pedirá ciertos datos.
+
+![2](/public/images/blogs/first-flog/microsoft-365-developer-2.png)
+
+### 3: Rellena tus Datos
+Completa el formulario de registro con tu información.
+
+![3](/public/images/blogs/first-flog/microsoft-365-developer-3.png)
+
+### 4: Elección de Enfoque
+Elige la opción que identifique tu enfoque.
+
+![4](/public/images/blogs/first-flog/microsoft-365-developer-4.png)
+
+### 5: Elección de Intereses
+Selecciona tus intereses respecto a Microsoft 365 y haz clic en el botón **Save**.
+
+![5](/public/images/blogs/first-flog/microsoft-365-developer-5.png)
+
+### 6: Sandbox
+Selecciona la siguiente opción por defecto de sandbox.
+
+![6](/public/images/blogs/first-flog/microsoft-365-developer-6.png)
+
+### 7: Continuar
+Desliza hacia abajo y haz clic en el botón de **Next**.
+
+![7](/public/images/blogs/first-flog/microsoft-365-developer-7.png)
+
+### 8: Rellenar Formulario de Creación de Cuenta
+Completa los datos solicitados y crea tu contraseña segura.
+
+![8](/public/images/blogs/first-flog/microsoft-365-developer-8.png)
+
+### 9: Continuar Proceso
+Desliza hacia abajo y haz clic en el botón de **Continue**.
+
+![9](/public/images/blogs/first-flog/microsoft-365-developer-9.png)
+
+### 10: Vista para Validar por Mensaje de Texto
+Se te abrirá la siguiente vista para validar tu cuenta por seguridad.
+
+![10](/public/images/blogs/first-flog/microsoft-365-developer-10.png)
+
+### 11: Completa los Campos de Teléfono
+Ingresa tu teléfono y recibe el mensaje con el código de confirmación, ingrésalo y luego haz clic en Set up.
+
+![11](/public/images/blogs/first-flog/microsoft-365-developer-11.png)
+
+### 12: Listo
+Después de esto, ya tendrás creada la cuenta de Microsoft 365 Developer. Apunta este correo de administrador y guarda tu contraseña. Luego haz clic en el link señalado o ingresa a este link [Microsoft 365](https://www.office.com/) e inicia sesión.
+
+![12](/public/images/blogs/first-flog/microsoft-365-developer-12.png)
+
+### 13: Vista de Microsoft 365
+Después de iniciar sesión, tendrás esta vista principal. Para ver todas las aplicaciones, puedes hacer clic donde se señala.
+
+![13](/public/images/blogs/first-flog/microsoft-365-developer-13.png)
+
+### 14: Ver Todas las Aplicaciones 1
+Luego haz clic en el siguiente link.
+
+![Paso 14](/public/images/blogs/first-flog/microsoft-365-developer-14.png)
+
+### Paso 15: Ver Todas las Aplicaciones 2
+Luego haz clic en el link All Apps.
+
+![Paso 15](/public/images/blogs/first-flog/microsoft-365-developer-15.png)
+
+### Paso 16: Vista de Todas las Aplicaciones
+Aquí podrás ver todas las aplicaciones disponibles. Como puedes ver, tienes una gran variedad de aplicaciones como Power Apps, Power BI, Excel, etc.
+
+![Paso 16](/public/images/blogs/first-flog/microsoft-365-developer-16.png)
+
+### Paso 17: Instalarlo en mi Máquina Local
+Si deseas tener instaladas las aplicaciones 365, haz clic en el botón **Install apps** y luego en Microsoft 365 apps.
+
+![Paso 17](/public/images/blogs/first-flog/microsoft-365-developer-17.png)
+
+### Paso 18: Descarga
+Se te pedirá confirmar y luego empezar a descargar el instalador.
+
+![18](/public/images/blogs/first-flog/microsoft-365-developer-18.png)
+
+### 19: Iniciar Sesión
+Después de esto, solo debes iniciar sesión con tu cuenta y contraseña. Para que luego empiece la descarga de todo el paquete 365.
+
+_**Dato importante:** para una correcta instalación no debes tener otra cuenta con licencia instalada. Si ya cuentas con una, te recomiendo desinstalarla o desistir de la instalación para evitar conflictos con las licencias._
+
+![19](/public/images/blogs/first-flog/microsoft-365-developer-19.png)
+
+### 20: Descarga Exitosa
+Después de esto, debería haberse instalado correctamente todas las aplicaciones del paquete 365. Las podrás visualizar en tu inicio.
+
+![20](/public/images/blogs/first-flog/microsoft-365-developer-20.png)
+
+### 21: OneDrive
+Para obtener el almacenamiento de 1 terabyte en OneDrive, puedes ingresar de la siguiente forma, teniéndolo activado en una máquina y haciendo clic en el icono de OneDrive.
+
+![21](/public/images/blogs/first-flog/microsoft-365-developer-21.png)
+
+### 22: Configuración
+Después de esto, haz clic en configuración.
+
+![22](/public/images/blogs/first-flog/microsoft-365-developer-22.png)
+
+### 23: Sección Cuenta
+Ahora, haz clic en la sección de Cuenta.
+
+![23](/public/images/blogs/first-flog/microsoft-365-developer-23.png)
+
+### 24: Iniciar Sesión
+Ahora, agrega la nueva cuenta obtenida con el correo de administrador y contraseña.
+
+![23](/public/images/blogs/first-flog/microsoft-365-developer-24.png)
+
+### 25: Disfruta
+**Listo**, ¡1TB de almacenamiento gratis! 😄
+![23](/public/images/blogs/first-flog/microsoft-365-developer-25.png)
