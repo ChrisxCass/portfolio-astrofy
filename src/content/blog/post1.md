@@ -1,5 +1,5 @@
 ---
-title: "Descubriendo Microsoft 365 Developer: Un Gran Ayuda Para el Aprendizaje"
+title: "Descubriendo Microsoft 365 Developer: Una Gran Ayuda Para el Aprendizaje"
 description: "Explora mi viaje de aprendizaje con Microsoft 365 Developer y descubre cómo superar obstáculos para aprovechar al máximo esta plataforma de desarrollo."
 pubDate: "Dec 22 2023"
 heroImage: "/images/blogs/first-flog/microsoft-365-developer.png"
